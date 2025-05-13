@@ -3,20 +3,37 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    title: "Color Palette Generator",
-    description:
-      "A tool to generate and save color palettes inspired by Coolors.",
-    image: "/images/color-palette.png",
-    link: "https://your-color-app.vercel.app",
-  },
-  {
-    title: "AgroConnect",
+    title: "Heypexx Farms",
     description:
       "A platform connecting farmers with buyers and sustainability resources.",
-    image: "/images/agroconnect.png",
-    link: "https://agroconnect.app",
+    image:
+      "https://res.cloudinary.com/dgcjq4kbf/image/upload/v1747130959/MacBook_Pro_16__-_1_vq60fp.png",
+    link: "https://heypexx-farms-j.vercel.app/",
   },
-  // Add more projects here
+  {
+    title: "Giftpixel",
+    description:
+      "A Platform where you can Share Meaningful Gifts With Your Loved Ones",
+    image:
+      "https://res.cloudinary.com/dgcjq4kbf/image/upload/v1747136211/Hero_section_zovju0.png",
+    link: "https://giftpixel.vercel.app/",
+  },
+  {
+    title: "Zayithyogurt",
+    description:
+      "Zayith is a healthy dairy processing, marketing and distribution company based in Lagos, Nigeria.",
+    image:
+      "https://res.cloudinary.com/dgcjq4kbf/image/upload/v1747137769/Hero_1_xkhopo.png",
+    link: "https://zayithyogurt.com/",
+  },
+  {
+    title: "Dessert App",
+    description:
+      "A Showcase of dessert",
+    image:
+      "https://res.cloudinary.com/dgcjq4kbf/image/upload/v1730796392/active-states_nyxrvt.jpg",
+    link: "https://sail-dessert-project.vercel.app/",
+  },
 ];
 
 const ProjectsSection: React.FC = () => {
