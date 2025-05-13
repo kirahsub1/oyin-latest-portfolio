@@ -10,7 +10,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Profile Image */}
         <motion.img
-          src="https://res.cloudinary.com/dgcjq4kbf/image/upload/v1708439094/ODVZ9406_y6pgcu.jpg" 
+          src="https://res.cloudinary.com/dgcjq4kbf/image/upload/v1708439094/ODVZ9406_y6pgcu.jpg"
           alt="Profile"
           className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-2xl border-4 border-white"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -53,7 +53,7 @@ const About = () => {
 
           {/* Resume Button */}
           <a
-            href="/resume.pdf" // replace with your resume path
+            href="https://docs.google.com/document/d/11HFT8KvLB0GZusw9KdHL8P0qPfxvj8wDsrbXVWFRjFM/edit?usp=sharing" // replace with your resume path
             download
             className="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition mb-4"
           >
@@ -62,10 +62,13 @@ const About = () => {
 
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start gap-6 mt-4">
-            <Link href="https://github.com/yourusername" target="_blank">
+            <Link href="https://github.com/kirahsub1" target="_blank">
               <Github className="w-6 h-6 text-gray-700 hover:text-black transition" />
             </Link>
-            <Link href="https://linkedin.com/in/yourusername" target="_blank">
+            <Link
+              href="https://linkedin.com/in/oyindamola-erikitola"
+              target="_blank"
+            >
               <Linkedin className="w-6 h-6 text-gray-700 hover:text-blue-700 transition" />
             </Link>
             <Link href="https://twitter.com/yourusername" target="_blank">

@@ -21,13 +21,13 @@ const Contact = () => {
           <div className="bg-green-300 bg-opacity-10 backdrop-blur-sm p-6 rounded-xl shadow-lg w-full sm:w-1/2">
             <h3 className="text-xl font-semibold mb-2">Get in Touch</h3>
             <p className="mb-1">
-              <strong>Address:</strong> 123 Green Lane, AgriCity, Earth 00001
+              <strong>Address:</strong> Lagos, Nigeria
             </p>
             <p className="mb-1">
-              <strong>Phone:</strong> +123 456 7890
+              <strong>Phone:</strong> +234 9035843790
             </p>
             <p>
-              <strong>Email:</strong> youremail@example.com
+              <strong>Email:</strong> oyindamolaerikitola@yahoo.com
             </p>
           </div>
         </div>
