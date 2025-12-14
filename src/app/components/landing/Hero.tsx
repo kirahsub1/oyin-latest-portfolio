@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import React from "react";
 
-export default function Home() {
+export default function Hero() {
   return (
     <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-900 via-green-700 to-lime-600 text-white px-6">
       <section className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center py-24">
@@ -20,7 +20,7 @@ export default function Home() {
             <span className="text-lime-300">Oyindamola Shakirat Erikitola</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-100 mb-6">
-            Creative Frontend Developer
+            Creative Full-Stack Developer & Problem Solver
           </h2>
           <p className="text-gray-200 text-lg mb-8">
             I am passionate about building impactful products and helping people
