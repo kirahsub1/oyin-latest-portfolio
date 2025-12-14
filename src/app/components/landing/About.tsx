@@ -53,7 +53,7 @@ const About = () => {
 
           {/* Resume Button */}
           <a
-            href="https://docs.google.com/document/d/11HFT8KvLB0GZusw9KdHL8P0qPfxvj8wDsrbXVWFRjFM/edit?usp=sharing" // replace with your resume path
+            href="https://docs.google.com/document/d/e/2PACX-1vSRTACU0zeOQZJQqxbwgTplnKl0VVH4gl2VZZBoiFLWgzHzqYW2O6SpS7u56Gx4KBgO2S6atnsXh-kv/pub" // replace with your resume path
             download
             className="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition mb-4"
           >
